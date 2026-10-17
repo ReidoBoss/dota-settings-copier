@@ -26,7 +26,7 @@ Got a smurf, a second account, or a friend's account on your PC that has totally
 
 ## Download
 
-Get the latest build for your system from the [**Releases**](../../releases) page:
+Get it from the [**download page**](https://dota-settings-copier.vercel.app) or the [**Releases**](../../releases) page:
 
 | System | File | How to run |
 | --- | --- | --- |
