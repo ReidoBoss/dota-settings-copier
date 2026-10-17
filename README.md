@@ -91,3 +91,14 @@ GitHub Actions runs the tests and builds the Windows, Linux and macOS apps on ev
 ```bash
 git tag v1.0.0 && git push origin v1.0.0
 ```
+
+### Website
+
+The download page at <https://dota-settings-copier.vercel.app> lives in `site/`. Vercel redeploys it on every push to `main`, using the settings in `vercel.json`. Each deploy copies the screenshots from `docs/screenshots`, so updating them there updates both the README and the site.
+
+Preview it locally:
+
+```bash
+mkdir -p site/screenshots && cp docs/screenshots/*.png site/screenshots/
+python3 -m http.server -d site 8000
+```

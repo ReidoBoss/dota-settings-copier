@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "mkdir -p site/screenshots && cp docs/screenshots/*.png site/screenshots/",
+  "outputDirectory": "site"
+}
